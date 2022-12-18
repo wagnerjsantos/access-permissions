@@ -47,13 +47,13 @@
                     </span>@enderror
                 </div>
                 <div class="mb-4">
-                    <label for="confirmpassword"
+                    <label for="confirm-password"
                         class="block mb-2 text-sm font-bold text-gray-700">Confirm password</label>
                     <input type="password"
                         class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
-                        name="confirmpassword"
+                        name="confirm-password"
                         placeholder="Confirm password">
-                    @error('confirmpassword') <span class="text-red-500">{{ $message }}
+                    @error('confirm-password') <span class="text-red-500">{{ $message }}
                     </span>@enderror
                 </div>
                 <div class="mb-4">
