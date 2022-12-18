@@ -2,7 +2,7 @@ Sistema Acesso de Usuário
 
 Instalação:
 
-Obs.: Certifique-se de ter o MySQL 8, Composer e o PHP 8.0.11 ou superior instalados.
+Obs.: Certifique-se de ter o NPM, MySQL 8, Composer e o PHP 8.0.11 ou superior instalados.
 
 
 1- Renomeio o arquivo .env.example para .env e acrescente as informações do seu banco de dados.
@@ -19,7 +19,13 @@ Obs.: Certifique-se de ter o MySQL 8, Composer e o PHP 8.0.11 ou superior instal
 
 7- Execute o comando: php artisan db:seed --class=CreateAdminUserSeeder
 
-8- Execute o comando: php artisan serve
+8- Execute o comando: php artisan key:generate
+
+9- Execute o comando: npm install
+
+10- Execute o comando: npm run dev(mantenha rodando)
+
+11- Em outro terminal e execute o comando: php artisan serve
 
 
 Irá gerar o usuário Admin com as credenciais:
